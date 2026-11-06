@@ -1,71 +1,141 @@
-<!DOCTYPE html>
-<html>
 
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diska Fruity</title>
-</head>
-    <title>Diska Smoothies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diska Ayu Fitri</title>
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
         body {
-            background-image: url("background.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            background: linear-gradient(135deg, #fce4ec, #e1bee7);
+            color: #444;
+            min-height: 100vh;
+            padding: 30px 15px;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .profile {
+            width: 145px;
+            height: 145px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #e1bee7;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #ad6b9c;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #888;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #ad6b9c;
+            margin: 25px 0 15px;
+            font-size: 20px;
+        }
+
+        .biodata {
+            text-align: left;
+            background: #fff5fa;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .biodata p {
+            margin: 12px 0;
+            line-height: 1.6;
+        }
+
+        .repository {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background: #c48ab5;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .repository:hover {
+            background: #a65c91;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #aaa;
+            font-size: 13px;
         }
     </style>
+</head>
 
 <body>
 
+    <div class="container">
 
-   <div style="text-align: center;">
-        <img src="logo.png" alt="Logo Diska Smoothies" width="150">
+        <!-- FOTO PROFIL -->
+        <img src="foto.png" alt="Foto profile" class="profile">
+
+        <h1>Diska Ayu Fitri</h1>
+        <p class="subtitle">Student | Teknik Jaringan Komputer dan Telekomunikasi</p>
+
+        <!-- BIODATA -->
+        <h2>✿ Biodata Diri ✿</h2>
+
+        <div class="biodata">
+            <p><b>Nama Lengkap:</b> Diska Ayu Fitri</p>
+            <p><b>Tempat, Tanggal Lahir:</b> (Cirebon,10 September 2010)</p>
+            <p><b>Jenis Kelamin:</b> Perempuan</p>
+            <p><b>Alamat:</b> (Jalan Gempol, Blok Utara RT/RW 01/02 Desa Gempol)</p>
+            <p><b>Sekolah:</b> SMK Negeri 1 Leuwimunding</p>
+            <p><b>Kelas:</b> XI TJKT 1</p>
+            <p><b>Jurusan:</b> Teknik Jaringan Komputer dan Telekomunikasi</p>
+            <p><b>Hobi:</b> (nonton)</p>
+            <p><b>Cita-cita:</b> (jadi anak teknik ITB)</p>
         </div>
-   <a href="index.html">Beranda</a> |
-    <a href="jadwal.html">Jadwal Operasional</a>
 
-    <hr>
+        <!-- MENU REPOSITORY -->
+        <h2>✿ My Repository ✿</h2>
 
-    <h1>DISKA SMOOTHIES</h1>
+        <p>
+            Kunjungi repository praktikum saya melalui tombol di bawah ini.
+        </p>
 
-    <h2>Fresh Smoothies, Fresh Mood!</h2>
+        <a href="https://github.com/USERNAME/praktikum"
+           class="repository"
+           target="_blank">
+           Repository Praktikum
+        </a>
 
-    <p>
-        Nikmati kesegaran buah dalam setiap tegukan.
-    </p>
+        <footer>
+            <p>© 2026 Diska Ayu Fitri</p>
+            <p>My Personal Website ♡</p>
+        </footer>
 
-    <p>
-        Dibuat dari buah pilihan dengan rasa yang
-        segar, manis, dan menyenangkan.
-    </p>
+    </div>
 
-    <p>
-        Temukan rasa favoritmu dan buat harimu
-        jadi lebih fresh bersama Diska Smoothies!
-    </p>
-   <h2>Menu Smoothies Kami</h2>
-
-    <ul>
-        <li>🍓 Strawberry Smoothies - Rp10.000</li>
-        <li>🍌 Banana Smoothies - Rp10.000</li>
-        <li>🍊 Orange Smoothies - Rp10.000</li>
-        <li>🥭 Mango Smoothies - Rp12.000</li>
-    </ul>
-
-    <h2>Kenapa Pilih Diska Fruity?</h2>
-
-    <p>
-        Menggunakan buah segar, rasa enak, harga terjangkau,
-        dan dibuat dengan penuh semangat.
-    </p>
-
-    <p><i>Fresh fruit, happy mood!</i></p>
-
-    <hr>
-
-    <p>Created by Diska @2026</p>
 </body>
-
 </html>

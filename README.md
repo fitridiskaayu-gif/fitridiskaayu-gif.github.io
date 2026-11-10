@@ -1,1 +1,0 @@
-# fitridiskaayu-gif.github.io
